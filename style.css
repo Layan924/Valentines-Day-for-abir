@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(225, 188, 228);
+    text-align: center; /* Centers all text inside the body */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    max-width: 500px;
+    margin: 20px;
+    padding-bottom: 50px; /* Creates space before the buttons */
+    text-align: center; /* Ensures text inside the container is centered */
+}
+
+.container .tenor-gif-embed {
+    max-width: 200px;
+}
+
+.container .btn {
+    display: flex;
+    gap: 15px; /* Less gap for a compact layout */
+    margin-top: 30px; /* Pushes the buttons down */
+    justify-content: center; /* Centers buttons */
+    width: 100%;
+}
+
+.btn a {
+    display: inline-block; /* Keeps buttons short */
+    text-decoration: none;  
+    color: rgb(37, 122, 248);
+    background: #fff;
+    padding: 10px 20px; /* Reduces button size */
+    border-radius: 10px;
+    box-shadow: 0.3rem 0.6rem 1.5rem hsla(308, 100%, 50%, 0.2);
+    font-size: 16px;
+    font-weight: regular;
+    text-align: center; /* Centers text inside buttons */
+}
